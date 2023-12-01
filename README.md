@@ -8,12 +8,11 @@
 - Follow: https://www.digitalocean.com/community/tutorials/how-to-set-up-a-react-project-with-vite
 - Steps
     - Create a folder
-    - Inside that create 'project' folder
-    - cd project
-    - yarn create vite
-    - cd <project-name>
-    - yarn
+    - Run: yarn create vite
+    - Use project name as 'project'
+    - Run: yarn
     - Edit vite.config.ts and set build folder as '..' (see project/vite.config.ts)
-    - To run: npm run dev
+    - copy .gitignore from this repo to the root folder
+    - To run the app: npm run dev
     - To build: npm run build
 
