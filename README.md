@@ -16,3 +16,10 @@
     - To run the app: npm run dev
     - To build: npm run build
 
+## How to clean the build files?
+- Since the build folder is the parent folder, it is dangerous to run build clean command.
+- Delete all the files except following
+    - project
+    - .gitignore
+    - README.md
+    
